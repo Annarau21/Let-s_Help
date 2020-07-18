@@ -1,30 +1,74 @@
+/* All */
+
 body {
     background-color: #B0C4DE;
+    font-family: 'Fondamento', cursive;
 }
+
+/* Header */
 
 header {
     border-top: solid gray 1px;
     border-bottom: solid gray 3px; 
-    background-color: white;
+    background-image: url("../img/Cafe/beans_01.jpg");
+    color: white;
 }
+
+header h1{
+    font-size: 60px;
+}
+
+/* Navbar */
 
 .navbar {
     border: solid gray 1px;
 }
 
-#menu {
-    background-color: white;
-    margin: 50px 150px;
-}
-#menu h2, h3{
-    padding: 20px;
-}
+/* Carousel*/
 
 .carousel-item {
     height: auto;
-    min-height: 500px;
+    min-height: 600px;
     margin: 100px 0;
     background: center scroll;
     background-size: cover;
     border: solid gray 9px;
-    }
+}
+
+/* Menu */
+
+#menu {
+    background-image: url(../img/Cafe/food_01.jpg);
+    margin: 50px;
+    padding: 50px 0;
+}
+#menu h2{
+    padding: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+#menu .card{
+    border: solid gray 2px;
+    margin: 10px 40px;
+    min-width: 300px;
+}
+
+/* Footer */
+
+footer {
+    margin: 20px;
+}
+
+footer a, li{
+    color: black;
+}
+
+footer .fa {
+    padding: 15px;
+    margin: 0;
+    border-radius: 5px;
+    border: white solid 3px;
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 50px;
+}

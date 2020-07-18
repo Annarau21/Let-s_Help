@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,13 +9,15 @@
         <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="css/cafe_style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    
         <title>Let's Help</title>
     </head>
+
     <body>
         <nav class="navbar navbar-expand-sm navbar-light sticky-top" style="background-color: #F0F8FF;">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="img/Let's_Help_Logo.png" height="30" width="30" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#other-pages">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#other-pages">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,11 +36,8 @@
         <header>
             <div class="container">
                 <div class="row" style="height: 100px;">
-                    <div class="col-5">
-                        <img src="img/cafe/cafe-logo.png" class="img" alt="cafe-logo" style="width:100px;height:100px;"/>
-                    </div>
-                    <div class="col align-self-center">
-                        <h1>Cafe Bene</h1>
+                    <div class="col offset-4 align-self-center">
+                        <h1>Cafe</h1>
                     </div>
                 </div>
             </div>
@@ -48,16 +48,14 @@
                 <div class ="col-12">
                    <div id="carouselBackground" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active" style="background-image: url('img/Cafe/food_01.jpg')">
+                            <div class="carousel-item active" style="background-image: url('img/Cafe/group_01.jpg')">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>
-                            
-                            <div class="carousel-item" style="background-image: url('img/Cafe/drinks_01.jpg')">
+                            <div class="carousel-item" style="background-image: url('img/Cafe/coffee_01.jpg')">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
                             </div>
-                            
                             <div class="carousel-item" style="background-image: url('img/Cafe/interior_01.jpg')">
                                 <div class="carousel-caption d-none d-md-block">
                                 </div>
@@ -78,11 +76,97 @@
         
         <section id="menu">
            <div class="container">
-                <div class="row">
-                    <div class="col offset-5">
+                <div class="row row-content">
+                    <div class="col-12 text-center">
                         <h2>Menu</h2>
                     </div>
                 </div>
+                <div class="card-group row row-content">
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/coffee_02.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Coffee</h5>
+                            <ul>
+                                <li>House Roast</li>
+                                <li>Espresso</li>
+                                <li>Latte</li>
+                                <li>Mocha</li>
+                                <li>Americano</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Small (12oz) || Medium (16oz) || Large (24oz)</small>
+                        </div>
+                    </div>
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/tea_01.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Tea</h5>
+                            <ul>
+                                <li>Chai Tea</li>
+                                <li>Earl Grey Tea</li>
+                                <li>Honey Citrus Tea</li>                                    <li>Mint Tea</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Small (12oz) || Medium (16oz)</small>
+                        </div>
+                    </div>
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/food_02.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakery</h5>
+                            <ul>
+                                <li>Chocolate Cookies</li>
+                                <li>Madeleines</li>
+                                <li>Bagel (Plain & Blueberry)</li>
+                                <li>Macarons</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Made Locally</small>
+                        </div>
+                    </div>
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/cold_coffee_01.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cold Coffee</h5>
+                            <ul>
+                                <li>House Roast</li>
+                                <li>Cold Brew</li>                                    <li>Latte</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> Small (12oz) || Medium (16oz) || Large (24oz)</small>
+                        </div>
+                    </div>
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/cold_drink_01.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cold Drinks</h5>
+                            <ul>
+                                <li>Iced Black Tea</li>
+                                <li>Lemonade</li>
+                                <li>Fruit Blended Smoothie</li>
+                                </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Small (12oz) || Medium (16oz) || Large (24oz)</small>
+                        </div>
+                    </div>
+                    <div class="col-9 card p-0">
+                        <img class="card-img-top" src="img/Cafe/drink_01.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Drinks</h5>
+                            <ul>
+                                <li>Hot Chocolate</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Small (12oz) || Medium (16oz) || Large (24oz)</small>
+                        </div>
+                    </div>    
+                </div>             
             </div> 
         </section>
         
@@ -95,6 +179,8 @@
                         <ul class="list-unstyled">
                             <li><a href="#">Home</a></li>
                             <li><a href="about.html">About</a></li>
+                            <li><a href="https://www.google.com/maps/place/Minneapolis,+MN">Location</a></li>
+                            <li>Phone: 612-123-4567</li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-5 text-center">
@@ -111,6 +197,7 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        
     </body>
 
 </html>

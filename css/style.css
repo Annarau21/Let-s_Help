@@ -1,7 +1,11 @@
+
+/* All */
+
 body {
     font-family: Tahoma, sans-serif;
     background-color: #f5edd880;
 }
+
 h1 {
     text-shadow:
 		-1px -1px 0 #ff8c00,
@@ -9,64 +13,25 @@ h1 {
 		-1px 1.5px 0 #ff8c00,
 		1.5px 1.5px 0 #ff8c00;
 }
+
 h3, h1, h5, h2 {
     font-weight : bold;
     
 }
-h3 {
+
+h3, footer h5{
     margin: 30px;
     padding: 10px;
 }
-#what-about {
-    border: solid #ff8c00 2px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.7);
-}
-#what-about h3 {
-    margin-top: 0;
-}
+
 a {
     font-weight: bold;
 }
-#personal-card {
-    border: solid white 6px;
-    border-radius: 10px;
-    min-height: 750px;
-    margin: 40px 10px;
-}
-#personal-card:hover {
-    background-color: peachpuff;
-    display: block;
-    transition: ease-in-out;
-    transition-duration: .15s;
-    box-shadow: 0 0 5px 1.5px peachpuff;
-}
-.card-title {
-    padding: 3px; 
-}
-#personal-stories {
-    background-color: rgb(255, 255, 255, 0.8);
-}
-footer {
-    background-image: linear-gradient(#f5edd880, #f5edd880,#ff8c00);
-    padding: 50px 0;
-}
-.btn.btn-rounded {
-    border-radius: 50px
-}
-#category-card{
-    background-color: rgb(255, 255, 255);
-}
-#class-categories {
-    background-color: #f5edd880;
-    padding: 100px;
-}
-#request-form{
-    background-color: #f5edd880;
-}
+
 footer a {
     color: black;
 }
+
 footer .fa {
     padding: 15px;
     margin: 0;
@@ -75,13 +40,23 @@ footer .fa {
     background-color: rgb(255, 255, 255, 0.7);
     width: 50px;
 }
-footer h5 {
-    margin: 30px 0;
+
+footer {
+    background-image: linear-gradient(#f5edd880, #f5edd880,#ff8c00);
+    padding: 50px 0;
 }
-#top-section{
-    margin: 30px;
+
+.btn.btn-rounded {
+    border-radius: 50px;
 }
-#top-section h3 {
+
+/* index.html */
+
+#topSection .btn, p {
+    margin-bottom: 20px;
+}
+
+#topSection h3 {
     border: solid peachpuff 2px;
     background-color: rgb(255, 255, 255, 0.7);
     align-self: center;
@@ -89,10 +64,78 @@ footer h5 {
     margin-bottom: 50px;
     border-radius: 5px;
 }
-#top-section .btn, p {
-    margin-left: 70px;
-    margin-bottom: 20px;
+
+#topSection{
+    margin: 30px;
 }
+
+#personal-card {
+    border: solid white 6px;
+    border-radius: 10px;
+    min-height: 750px;
+    margin: 40px 10px;
+}
+
+#personal-card:hover {
+    background-color: peachpuff;
+    display: block;
+    transition: ease-in-out;
+    transition-duration: .15s;
+    box-shadow: 0 0 5px 1.5px peachpuff;
+}
+
+#personalStories {
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+#what-about {
+    border: solid #ff8c00 2px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#what-about h2 {
+    margin: 20px;
+    padding: 10px;
+}
+
+#category-card{
+    background-color: rgb(255, 255, 255);
+}
+
+#classCategories {
+    background-color: #f5edd880;
+    padding: 100px;
+}
+
+/* about.html */
+
+#aboutUs {
+    background-color: white;
+    padding: 50px;
+    border: solid peachpuff 5px;
+}
+
+/* Current_Classes.html */
+
+
+
+/* Request_a_class.html */
+
+#requestTop {
+    background-color: white;
+    padding: 50px;
+    border: solid peachpuff 5px;
+    border-radius: 15px;
+    color: gray;
+}
+
+#request-form{
+    background-color: #f5edd880;
+    margin-top: 50px;
+}
+
+/* Volunteer */
 
 #requested-classes h2, #make-a-class h2{
     padding: 50px;
