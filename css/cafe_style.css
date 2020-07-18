@@ -1,0 +1,30 @@
+body {
+    background-color: #B0C4DE;
+}
+
+header {
+    border-top: solid gray 1px;
+    border-bottom: solid gray 3px; 
+    background-color: white;
+}
+
+.navbar {
+    border: solid gray 1px;
+}
+
+#menu {
+    background-color: white;
+    margin: 50px 150px;
+}
+#menu h2, h3{
+    padding: 20px;
+}
+
+.carousel-item {
+    height: auto;
+    min-height: 500px;
+    margin: 100px 0;
+    background: center scroll;
+    background-size: cover;
+    border: solid gray 9px;
+    }

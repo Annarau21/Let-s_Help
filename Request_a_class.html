@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Let's Help</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light navbar-fixed-top">
+            <div class="container p-1">
+                <a class="navbar-brand" href="index.html"><img src="img/Let's_Help_Logo.png" height="30" width="30" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#other-pages">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#other-pages">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="other-pages">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Current_Classes.html"><i class=""></i> Current Classes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Volunteer.html"><i class=""></i> Volunteer</a></li>
+                        <li class="nav-item-active"><a class="nav-link" href="#"><i class=""></i> Request A Class</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Cafe.html"><i class="fa fa-coffee fa-lg"></i> Cafe Bene</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="jumbotron jumbotron-fluid" style="background: url(img/Header_Background.jpg);">
+            <div class="container">
+                <div class="row row-content align-items-left">
+                    <div class="col-4 col-lg-2 m-4">
+                        <img src="img/Let's_Help_Logo.png" style="width:200px; height:200px;" alt="Let's_Help_Logo"/>
+                    </div>
+                    <div class="col align-items-center">
+                        <h1 style="color:gray; font-size: 100px;">Let's Help</h1>
+                        <h3 style="color: rgb(207, 55, 55);">A place to learn the simple stuff.</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Put in a request of the type of class you would like and then if a Volunteer can help with this,
+                        they will pick up your class and you will get an email or a text message based on your preference.
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <section id="request-form">
+            <div class="container">
+                <div class="row row-content">
+                    <div class="col-12">
+                        <h2>Request A Class</h2>
+                        <hr />
+                    </div>
+                    <div class="col">
+                        <form>
+                            <div class="row form-group">
+                                <label for="name" class="col-md-2 col-form-label">Name</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="name" placeholder="Name"/>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="classTitle" class="col-md-2 col-form-label">Class Title</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="classTitle" placeholder="Class Title"/>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="zipcode" class="col-md-2 col-form-label">Zipcode</label>
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="zipcode" placeholder="Zipcode"/>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label class="col-md-2 col-form-label" for="typeClass">Type of Class</label>
+                                <div class="col-6">
+                                    <select class="form-control" name="typeClass" id="typeClass">
+                                        <option selected>Select...</option>
+                                        <option value="household">Household</option>
+                                        <option value="financial">Financial</option>
+                                        <option value="education">Education</option>
+                                        <option value="foreignLanguage">Foreign Language</option>
+                                        <option value="health">Health</option>
+                                        <option value="social">Social</option>
+                                        <option value="misc">Misc.</option>
+                                    </select>
+                                </div>
+                                <a role="button" class="btn btn-sm btn-secondary fa fa-question" data-toggle="tooltip" data-placement="bottom" data-html="true" title="If unsure, check the main page for the category examples or <br /> select Misc."></a>
+                            </div>
+                            <div class="form-group row">
+                                <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                                <div class="col-5 col-md-3">
+                                    <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                                </div>
+                                <div class="col-7">
+                                    <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="email" class="col-md-2 col-form-label">Email</label>
+                                <div class="col-md-10">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col offset-md-2">
+                                    Preferred Method of Contact if Class is Picked Up 
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactEmail" name="contactRadios" value="email" />
+                                        <label for="contactEmail" class="form-check-label">Email</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="contactText" name="contactRadios" value="text" />
+                                        <label for="contactText" class="form-check-label">Text</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <label for="comments" class="col-md-2 col-form-label">Your Comments </br> (Add days of the week and times that would work best for you)</label>
+                                <div class="col-md-10">
+                                    <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row row-content">             
+                    <div class="col-4 col-sm-4 offset-2">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-5 text-center">
+                        <h5>Social</h5>
+                        <a href="http://instagram.com/" class="btn btn-social-icon btn-instagram btn-sm"><i class="fa fa-instagram"></i></a>
+                        <a href="http://facebook.com/" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fa fa-facebook"></i></a>
+                        <a href="http://twitter.com/" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fa fa-twitter"></i></a>
+                        <a href="http://youtube.com/" class="btn btn-social-icon btn-youtube btn-rounded"><i class="fa fa-youtube"></i></a>
+                    </div>             
+               </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+    </body>
+
+</html>
